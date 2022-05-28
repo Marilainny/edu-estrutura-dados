@@ -1,4 +1,4 @@
-package edu.mms.estruturadados.colletion;
+package edu.mms.estruturadados.collection;
 /*
  * Quando é necessário mantém a ordem dos elementos.
  * Mantém a ordem de inserção dos elementos.
@@ -19,7 +19,7 @@ public class LinkedHashSetMain {
 		
 		LinkedHashSet<Integer> sequenciaNumerica = new LinkedHashSet<>();
 		
-		//Adicionar os números
+		//Adicionar os elementos
 		sequenciaNumerica.add(1);
 		sequenciaNumerica.add(2);
 		sequenciaNumerica.add(8);
@@ -30,7 +30,7 @@ public class LinkedHashSetMain {
 		
 		System.out.println(sequenciaNumerica);
 		
-		//remove o número do set
+		//remove o elemento do set
 		sequenciaNumerica.remove(14);
 		
 		System.out.println(sequenciaNumerica);

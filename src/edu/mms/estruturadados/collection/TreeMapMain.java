@@ -1,5 +1,11 @@
-package edu.mms.estruturadados.colletion;
-
+package edu.mms.estruturadados.collection;
+/*
+ * O TreeMap em Java é usado para implementar a interface Map, 
+ * e NavigableMap junto com a classe AbstractMap. 
+ * O mapa é classificado de acordo com a ordem natural de suas chaves,
+ * ou por um Comparador fornecido no momento da criação do mapa, 
+ * dependendo de qual construtor é usado.
+ */
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;

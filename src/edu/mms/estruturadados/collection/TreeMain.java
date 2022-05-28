@@ -1,4 +1,4 @@
-package edu.mms.estruturadados.colletion;
+package edu.mms.estruturadados.collection;
 
 import java.util.Iterator;
 import java.util.TreeSet;
@@ -24,10 +24,10 @@ public class TreeMain {
 		
 		System.out.println(treeCapitais);
 		
-		//retorna a primeira capital no topo da árvore
+		//retorna o primeir elemento no topo da árvore
 		System.out.println("Primeiro elemento: "+treeCapitais.first());
 		
-		//retorna a última capital no final da árvore
+		//retorna o últim elemento no final da árvore
 		System.out.println("Ultimo elemento: "+treeCapitais.last());
 		
 		//retorno parametrizado
@@ -36,12 +36,12 @@ public class TreeMain {
 		//retonro parametrizado
 		System.out.println(treeCapitais.higher("Salvador"));
 		
-		//retorna a primeira capital do topo removendo
+		//retorna o primeiro elemento do topo removendo
 		System.out.println(treeCapitais.pollFirst());
 		
 		System.out.println(treeCapitais);
 		
-		//retorna a ultima capital do topo removendo
+		//retorna o ultimo elemento do topo removendo
 		System.out.println(treeCapitais.pollLast());
 		
 		System.out.println(treeCapitais);

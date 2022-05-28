@@ -1,5 +1,10 @@
-package edu.mms.estruturadados.colletion;
-
+package edu.mms.estruturadados.collection;
+/*
+ * Hashtable é um conjunto de pares de valores-chave, 
+ * que são organizadas no hash de suas respectivas chaves. 
+ * Quando você adiciona um elemento, ele é adicionado à tabela hash,
+ * e seu código de hash correspondente é gerado automaticamente.
+ */
 import java.util.Hashtable;
 import java.util.Map;
 

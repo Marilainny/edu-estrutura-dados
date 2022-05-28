@@ -1,4 +1,4 @@
-package edu.mms.estruturadados.colletion;
+package edu.mms.estruturadados.collection;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -28,15 +28,15 @@ public class SetMain {
 		
 		System.out.println(notasAlunos);
 		
-		//remover notas
+		//remover elemento
 		notasAlunos.remove(5.4);
 		
 		System.out.println("notas: "+notasAlunos);
 		
-		//Retornar a quantidade de itens
+		//Retornar tamanho
 		System.out.println("Tamanho: "+notasAlunos.size());
 		
-		//Navegar em todos os itens do iterator
+		//Navegar em todos os elementos do iterator
 		Iterator<Double>iterator = notasAlunos.iterator();
 		
 		while (iterator.hasNext()){			
@@ -52,9 +52,7 @@ public class SetMain {
 		
 		//Retorna se está vazio
 		System.out.println("vazio: "+notasAlunos.isEmpty());		
-		
-		
-		
+				
 	}
 
 }

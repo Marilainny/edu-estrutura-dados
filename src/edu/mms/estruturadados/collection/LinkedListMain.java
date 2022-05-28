@@ -1,10 +1,14 @@
-package edu.mms.estruturadados.colletion;
-
+package edu.mms.estruturadados.collection;
+/*
+ * A classe LinkedList é uma implementação da interface List. 
+ * Esta classe implementa boa parte das operações de uma lista,
+ * e permite a inserção de qualquer tipo de elemento (incluindo null).
+ */
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ExemploLinkedList {
+public class LinkedListMain {
 
 	public static void main(String[] args) {
 

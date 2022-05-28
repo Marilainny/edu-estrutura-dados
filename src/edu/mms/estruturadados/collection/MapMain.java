@@ -1,4 +1,4 @@
-package edu.mms.estruturadados.colletion;
+package edu.mms.estruturadados.collection;
 
 import java.util.HashMap;
 import java.util.List;
@@ -41,7 +41,7 @@ public class MapMain {
 		//Verificar se o elemento 
 		System.out.println(campeoesMundialFifa.containsKey("França"));
 
-		//Remover
+		//Remover elemento
 		campeoesMundialFifa.remove("França");
 
 		//Verificar se o elemento 
